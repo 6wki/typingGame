@@ -43,7 +43,7 @@ span {
 
 h1 {
   font-family: "Poppins", sans-serif;
-  color: #8f43ee;
+  color: #fc2947;
   margin-top: 1rem;
 }
 
@@ -97,10 +97,6 @@ input:focus {
   font-family: "Poppins", sans-serif;
   cursor: default;
   transition: 0.3s;
-}
-
-.word:hover {
-  background-color: #fc2947;
 }
 
 .words {
@@ -216,4 +212,27 @@ input:focus {
 
 button img {
   width: 3rem;
+}
+
+@media (max-width: 500px) {
+  nav p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  nav {
+    top: 38%;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .container div:nth-child(2) {
+    font-size: 0.6rem;
+  }
+
+  input {
+    height: 10rem;
+  }
 }
