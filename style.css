@@ -21,8 +21,8 @@ body {
 nav {
   width: max-content;
   position: absolute;
+  top: 30%;
   padding: 0 2rem;
-  margin-top: 14rem;
   z-index: 2;
   border-radius: 0.5rem;
   background-color: transparent;
@@ -38,7 +38,7 @@ nav {
 }
 
 span {
-  color: #8f43ee;
+  color: #fc2947;
 }
 
 h1 {
@@ -95,6 +95,12 @@ input:focus {
   border-radius: 0.5rem;
   font-size: 0.8rem;
   font-family: "Poppins", sans-serif;
+  cursor: default;
+  transition: 0.3s;
+}
+
+.word:hover {
+  background-color: #fc2947;
 }
 
 .words {
@@ -129,7 +135,7 @@ input:focus {
   width: 9rem;
   font-size: 2rem;
   border: none;
-  margin-top: -4rem;
+  top: 0;
   border-radius: 0.2rem;
   cursor: pointer;
   transition: 0.8s;
