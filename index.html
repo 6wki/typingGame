@@ -8,6 +8,21 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="alert failed">
+      <p>
+        Oh NO!! Time ended 😩 Your Score is [<span class="scroreEnd">5</span>]
+        😎
+      </p>
+      <button onClick="window.location.reload()">Try Again</button>
+    </div>
+    <div class="alert madeit">
+      <p>
+        WE HAVE A LEGEND HERE!!! YOU REACHED THE END 😮 [<span class="scroreEnd"
+          >5</span
+        >] 🎉🎉🎉🎉
+      </p>
+      <button onClick="window.location.reload()">Try Again</button>
+    </div>
     <nav><p>🛸 The Typing Speed Game 🛸</p></nav>
     <div class="container">
       <div class="start">
@@ -26,7 +41,7 @@
       <input type="text" />
       <div class="same footer">
         <p>Time Left: <span class="time">3</span> Seconds</p>
-        <p>Score: <span class="score">3</span> From <span>3</span></p>
+        <p>Score: <span class="score">0</span> From <span>30</span></p>
       </div>
     </div>
     <script src="./App.js"></script>

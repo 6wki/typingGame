@@ -21,7 +21,7 @@ body {
 nav {
   width: max-content;
   position: absolute;
-  top: 30%;
+  top: 35%;
   padding: 0 2rem;
   z-index: 2;
   border-radius: 0.5rem;
@@ -110,6 +110,67 @@ input:focus {
   flex-wrap: wrap;
 }
 
+.alert {
+  width: max-content;
+  align-items: center;
+  padding: 0 2rem;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  z-index: 8;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  gap: 2rem;
+  font-size: 1.5rem;
+  display: none;
+  animation: appearing forwards ease-in-out 1s;
+}
+
+.madeit {
+  background-color: #bfdb38;
+}
+
+.madeit button {
+  background-color: #fc2947 !important;
+  box-shadow: 3px 3px 0px 2px #181823, 6px 6px 0px 2px #181823a9,
+    9px 9px 0px 2px #18182385 !important;
+}
+
+@keyframes appearing {
+  0% {
+    height: 0;
+  }
+
+  100% {
+    height: 100%;
+  }
+}
+
+.alert button {
+  cursor: pointer;
+  background-color: #03c988;
+  box-shadow: 3px 3px 0px 2px #03c98777, 6px 6px 0px 2px #03c98734,
+    9px 9px 0px 2px #03c9870c;
+  border: none;
+  padding: 1rem 2rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  border-radius: 1rem;
+}
+
+.alert button:active {
+  margin-left: 4px;
+  box-shadow: 3px 3px 0px 2px #03c98777, 6px 6px 0px 2px #03c98734,
+    9px 9px 0px 2px #03c98700;
+}
+
+.failed {
+  background-color: #cbe4de;
+}
+
 .start {
   position: absolute;
   width: 100%;
@@ -125,6 +186,7 @@ input:focus {
       rgba(0, 0, 0, 0.25) 200%
     );
   background-blend-mode: multiply;
+  transition: 0.3s;
 }
 
 .start button {
