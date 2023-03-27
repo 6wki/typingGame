@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Average+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e9e9e9;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+nav {
+  width: max-content;
+  position: absolute;
+  padding: 0 2rem;
+  margin-top: 14rem;
+  z-index: 2;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  color: #ffffff;
+  height: 4rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+span {
+  color: #8f43ee;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: #8f43ee;
+  margin-top: 1rem;
+}
+
+input {
+  width: 100%;
+  height: 3rem;
+  padding: 0 1rem;
+  border: #181823b9 solid 2px;
+  border-radius: 0.4rem;
+}
+
+input:focus {
+  outline-color: #8f43ee;
+}
+
+.same {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  font-family: "Average Sans", sans-serif;
+  background-color: #181823;
+  border-radius: 0.1rem;
+  color: #fff;
+  box-shadow: 3px 3px 0px 2px #fc2947, 6px 6px 0px 2px #fc2949a4,
+    9px 9px 0px 2px #fc29494d;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40rem;
+  width: 40rem;
+  gap: 1rem;
+  padding-top: 10rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.word {
+  background-color: #8f43ee;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.words {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.start {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #323232 0%, #3f3f3f 40%, #1c1c1c 150%),
+    linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(0, 0, 0, 0.25) 200%
+    );
+  background-blend-mode: multiply;
+}
+
+.start button {
+  font-family: "Lilita One", cursive;
+  background-color: #fc2947;
+  color: #fff;
+  height: 4rem;
+  width: 9rem;
+  font-size: 2rem;
+  border: none;
+  margin-top: -4rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  transition: 0.8s;
+  box-shadow: 3px 3px 0px 2px #181823, 6px 6px 0px 2px #181823a9,
+    9px 9px 0px 2px #18182385;
+}
+
+.start button:hover {
+  background-color: #ff1b3d;
+}
+
+.start button:active {
+  box-shadow: 3px 3px 0px 2px #181823, 6px 6px 0px 2px #181823a9;
+  margin-left: 4px;
+}
+
+button img {
+  width: 3rem;
+}
