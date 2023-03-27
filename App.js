@@ -68,11 +68,9 @@ function startGame() {
     nav.style.fontSize = "2rem";
     startButton.remove();
     loading.remove();
-  }, 0);
-  setInterval(function () {
     start.style.opacity = "0";
     start.style.visibility = "hidden";
-  }, 0);
+  }, 3000);
   generateWords();
   input.focus();
 }
