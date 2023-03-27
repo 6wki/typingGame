@@ -226,6 +226,7 @@ button img {
 
   .container {
     width: 90%;
+    padding-top: 5rem;
   }
 
   .container div:nth-child(2) {
@@ -233,6 +234,11 @@ button img {
   }
 
   input {
-    height: 10rem;
+    height: 3rem;
+  }
+
+  .words {
+    overflow: hidden;
+    height: 3rem;
   }
 }
