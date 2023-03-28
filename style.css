@@ -229,7 +229,7 @@ button img {
     padding-top: 5rem;
   }
 
-  .container div:nth-child(2) {
+  .container .same:nth-child(2) {
     font-size: 0.6rem;
   }
 
