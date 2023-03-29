@@ -91,7 +91,10 @@ input:focus {
 .word {
   background-color: #8f43ee;
   color: #fff;
-  padding: 0.6rem 1rem;
+  padding: 0 1rem;
+  height: 2.3rem;
+  display: flex;
+  align-items: center;
   border-radius: 0.5rem;
   font-size: 0.8rem;
   font-family: "Poppins", sans-serif;
